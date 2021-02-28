@@ -32,6 +32,7 @@ const Header = () => {
               value={searchInput}
               onChange={(e) => setSearchInput(e.target.value)}
               type="text"
+              placeholder="Username"
             />
             <div className="absolute top-1/2 left-4 transform  -translate-y-1/2 text-2xl">
               <FiSearch />
