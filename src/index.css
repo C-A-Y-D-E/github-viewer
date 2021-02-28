@@ -1,13 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Saira", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer utilities {
+  .search-box-shadow {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-box-shadow {
+    box-shadow: 9px 3px 5px -5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.react-github-calendar__calendar {
+  width: 100%;
 }
